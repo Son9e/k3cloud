@@ -1,4 +1,4 @@
-## Kingdeephp/K3cloud
+## Songe/k3cloud
 
 A PHP SDK for KingDee
 
@@ -9,7 +9,7 @@ Continue to improve
 Via Composer
 
 ``` bash
-$ composer require kingdee-php/k3cloud
+$ composer require songe/k3cloud
 ```
 
 ## Usage (API)
@@ -42,7 +42,7 @@ $config = [
         'table' => '',
     ],
 ];
-$server = new \Kingdeephp\K3cloud\K3CloudApiSdk($config);
+$server = new \Songe\K3cloud\K3CloudApiSdk($config);
 
 //返回值格式 可不传 默认string 所有接口通用
 $format = 'string';

@@ -1,10 +1,10 @@
 <?php
 
-namespace Kingdeephp\K3cloud;
+namespace Songe\K3cloud;
 
-use Kingdeephp\K3cloud\Consts\ApiPathConst;
-use Kingdeephp\K3cloud\Consts\ApiAuthTypeConst;
-use Kingdeephp\K3cloud\Core\WebApiClient;
+use Songe\K3cloud\Consts\ApiPathConst;
+use Songe\K3cloud\Consts\ApiAuthTypeConst;
+use Songe\K3cloud\Core\WebApiClient;
 
 class K3CloudApiSdk
 {
@@ -107,6 +107,21 @@ class K3CloudApiSdk
     public function executeBillQuery($data, string $format = 'string')
     {
         $url = $this->hostUrl . ApiPathConst::EXECUTEBILLQUERY_API;
+        $postData = [
+            'data' => $data
+        ];
+        return $this->webApiClient->execute($url, $this->getHeaders($url), $postData, $format);
+    }
+
+    /**
+     *  单据查询(JSON)
+     * @param $data
+     * @param string $format
+     * @return mixed|string|void
+     */
+    public function billQuery($data, string $format = 'string')
+    {
+        $url = $this->hostUrl . ApiPathConst::BILLQUERY_API;
         $postData = [
             'data' => $data
         ];

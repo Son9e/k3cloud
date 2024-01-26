@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingdeephp\K3cloud\Traits;
+namespace Songe\K3cloud\Traits;
 
 use GuzzleHttp\Client;
 

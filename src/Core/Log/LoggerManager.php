@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingdeephp\K3cloud\Core\Log;
+namespace Songe\K3cloud\Core\Log;
 
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;

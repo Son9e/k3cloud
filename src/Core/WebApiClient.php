@@ -1,9 +1,9 @@
 <?php
 
-namespace Kingdeephp\K3cloud\Core;
+namespace Songe\K3cloud\Core;
 
-use Kingdeephp\K3cloud\Traits\HttpClientTraits;
-use Kingdeephp\K3cloud\Core\Log\LoggerManager;
+use Songe\K3cloud\Traits\HttpClientTraits;
+use Songe\K3cloud\Core\Log\LoggerManager;
 
 class WebApiClient
 {

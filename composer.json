@@ -1,17 +1,17 @@
 {
-  "name": "kingdee-php/k3cloud",
+  "name": "songe/k3cloud",
   "description": "This is KingDee PHP SDK",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Kingdeephp\\K3cloud\\": "src/"
+      "Songe\\K3cloud\\": "src/"
     }
   },
   "authors": [
     {
-      "name": "yangxin",
-      "email": "13241116116@163.com"
+      "name": "songe",
+      "email": "sungyuqi@gmail.com"
     }
   ],
   "minimum-stability": "dev",

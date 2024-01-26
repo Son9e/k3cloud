@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingdeephp\K3cloud\Consts;
+namespace Songe\K3cloud\Consts;
 
 class ApiAuthTypeConst
 {
